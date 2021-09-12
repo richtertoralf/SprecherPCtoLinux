@@ -15,6 +15,9 @@ z.B. ins Verzeichnis: `/home/pi/snowgames`
 So muss im Terminal das Programm aufgerufen werden, damit auch die deutschen Umlaute richtig angezeigt werden:  
 `java -jar -Dfile.encoding=ISO-8859-1 SprecherPC.jar`  
 
+## Icon für Programmstarter verschieben und umbenenen
+`sudo mv -v /home/pi/snowgames/javaw.ico /usr/share/pixmaps/sprecherpc.ico` 
+
 ## Programmstarter erstellen:  
 Die Datei SprecherPC.desktop erstellen:  
 `nano /home/pi/.local/share/applications/SprecherPC.desktop`  
@@ -23,7 +26,7 @@ dort einfügen:
 [Desktop Entry]
 Name=SprecherPC
 Comment=Startet den Winlaufen Sprecher-PC
-Icon=/home/pi/snowgames/javaw.ico
+Icon=/usr/share/pixmaps/sprecherpc.ico
 Exec=java -jar -Dfile.encoding=ISO-8859-1 /home/pi/snowgames/SprecherPC.jar
 Type=Application
 Terminal=false
@@ -31,5 +34,5 @@ Categories=None;
 Name[de_DE]=SprecherPC
 ```
 
-eventuell noch ausführbar machen 
+und ausführbar machen 
 `sudo chmod +x /home/pi/.local/share/applications/SprecherPC.desktop`  
