@@ -4,6 +4,7 @@ clear
 
 ############################################
 # Installation des Winlaufen Sprecher-PC´s #
+# als user pi ausführen                    #
 ############################################
 
 sudo apt update -y && sudo apt upgrade -y
@@ -16,7 +17,7 @@ cat <<EOF > ~/.local/share/applications/SprecherPC.desktop
 Name=SprecherPC
 Comment=Startet den Winlaufen Sprecher-PC
 Icon=/usr/share/pixmaps/sprecherpc.ico
-Exec=java -jar -Dfile.encoding=ISO-8859-1 ~/snowgames/SprecherPC.jar
+Exec=java -jar -Dfile.encoding=ISO-8859-1 /home/pi/snowgames/SprecherPC.jar
 Type=Application
 Terminal=false
 Categories=None;
