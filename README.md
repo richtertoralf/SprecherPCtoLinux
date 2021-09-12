@@ -1,6 +1,12 @@
 # SprecherPCtoLinux
 Winlaufen Sprecher-PC unter Linux (RaspberryPi) installieren  
 
+## schnelle Installation per Skript
+cd ~
+mkdir ~/snowgamessources
+cd snowgamessources
+git clone -v https://github.com/snowgames95/SprecherPCtoLinux
+
 ## Download
 Zuerst das Programm von http://www.winlaufen.de/installwinlaufen2019.htm auf einen Windows-PC herunterladen.  
 Dort installieren. Dann den Installationspfad suchen.  
