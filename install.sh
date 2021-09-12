@@ -11,7 +11,7 @@ mkdir ~/snowgames
 sudo mv -v ~/snowgamessources/SprecherPCtoLinux/javaw.ico /usr/share/pixmaps/sprecherpc.ico
 sudo mv -v ~/snowgamessources/SprecherPCtoLinux/SprecherPC.jar ~/snowgames/SprecherPC.jar
 
-cat <<EOF ~/.local/share/applications/SprecherPC.desktop
+cat <<EOF > ~/.local/share/applications/SprecherPC.desktop
 [Desktop Entry]
 Name=SprecherPC
 Comment=Startet den Winlaufen Sprecher-PC
@@ -23,4 +23,4 @@ Categories=None;
 Name[de_DE]=SprecherPC
 EOF
 
-sudo chmod +x ~/.local/share/applications/SprecherPC.desktop
+sudo chmod +x /home/pi/.local/share/applications/SprecherPC.desktop
