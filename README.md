@@ -12,8 +12,9 @@ cd SprecherPCtoLinux
 sudo chmod +x install.sh
 ./install.sh
 ```
+**Fertig**  
 
-## Infos:
+## Infos zur Installatiom:
 ### Download
 Zuerst das Programm von http://www.winlaufen.de/installwinlaufen2019.htm auf einen Windows-PC herunterladen.  
 Dort installieren. Dann den Installationspfad suchen.  
