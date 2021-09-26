@@ -14,7 +14,7 @@ sudo chmod +x install.sh
 ```
 **Fertig**  
 
-## Infos zur Installatiom:
+## Infos zur Installation:
 ### Download
 Zuerst das Programm von http://www.winlaufen.de/installwinlaufen2019.htm auf einen Windows-PC herunterladen.  
 Dort installieren. Dann den Installationspfad suchen.  
