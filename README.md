@@ -16,7 +16,7 @@ sudo chmod +x install.sh
 
 ## Infos zur Installation:
 ### Download
-Zuerst das Programm von http://www.winlaufen.de/installwinlaufen2019.htm auf einen Windows-PC herunterladen.  
+Zuerst das Programm von http://www.winlaufen.de/installwinlaufen2021.htm auf einen Windows-PC herunterladen.  
 Dort installieren. Dann den Installationspfad suchen.  
 Hier ist es:  
 C:\Program Files (x86)\SprecherPC  
