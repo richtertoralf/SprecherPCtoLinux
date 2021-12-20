@@ -9,8 +9,9 @@ mkdir ~/snowgamessources
 cd snowgamessources
 git clone -v https://github.com/snowgames95/SprecherPCtoLinux
 cd SprecherPCtoLinux
-sudo chmod +x install.sh
-./install.sh
+# sudo chmod +x install.sh
+# ./install.sh
+bash ./install.sh
 ```
 **Fertig**  
 
