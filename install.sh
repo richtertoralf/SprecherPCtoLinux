@@ -8,6 +8,7 @@ clear
 ############################################
 
 sudo apt update -y && sudo apt upgrade -y
+sudo apt install default-jdk -y
 mkdir ~/snowgames
 sudo mv -v ~/snowgamessources/SprecherPCtoLinux/javaw.ico /usr/share/pixmaps/sprecherpc.ico
 sudo mv -v ~/snowgamessources/SprecherPCtoLinux/SprecherPC.jar ~/snowgames/SprecherPC.jar
